@@ -18,9 +18,9 @@ class AnnouncementDumper(biothings.hub.dataload.dumper.DummyDumper):
             },
             "code":{
                 "branch": "main",
-                "repo": "https://github.com/gtsueng/announcement_plugin.git"
+                "repo": "https://github.com/gtsueng/announceTest.git"
             },
-            "url": "https://github.com/gtsueng/announcement_plugin/",
+            "url": "https://github.com/gtsueng/announceTest",
             "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
         }
     }
