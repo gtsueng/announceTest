@@ -17,9 +17,12 @@ def load_annotations():
     for eachjson in formattedlist:
         fileurl = os.path.join(basejsonurl,eachjson)
         rawdoc = requests.get(fileurl)
-        doc = json.loads(rawdoc.text)
-        doc['_id'] = eachjson.replace('.json','')
-        yield doc
+        try:
+            doc = json.loads(rawdoc.text)
+            doc['_id'] = eachjson.replace('.json','')
+            yield doc
+        except:
+            pass
 
 if __name__ == '__main__':
     with open('output.json', 'w') as output:
