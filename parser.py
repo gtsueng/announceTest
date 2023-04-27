@@ -19,3 +19,7 @@ def load_annotations():
         doc = json.loads(rawdoc.text)
         doc['_id'] = eachjson.replace('.json','')
         yield doc
+
+if __name__ == '__main__':
+    with open('output.json', 'w') as output:
+        json.dump([i for i in load_annotations()], output)
