@@ -27,10 +27,10 @@ class AnnouncementUploader(biothings.hub.dataload.uploader.BaseSourceUploader):
                 "url": "https://github.com/gtsueng"
             },
             "code":{
-                "branch": "master",
-                "repo": "https://github.com/gtsueng/covid19_LST_reports.git"
+                "branch": "main",
+                "repo": "https://github.com/gtsueng/announceTest.git"
             },
-            "url": "https://www.covid19lst.org/",
+            "url": "https://github.com/gtsueng/",
             "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
         }
     }
