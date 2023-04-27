@@ -17,4 +17,5 @@ def load_annotations():
         fileurl = basejsonurl+eachjson
         rawdoc = requests.get(fileurl)
         doc = json.loads(rawdoc.text)
+        doc['_id'] = eachjson.replace('.json','')
         yield doc
