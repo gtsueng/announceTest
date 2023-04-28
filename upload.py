@@ -18,8 +18,8 @@ except ImportError:
 
 class AnnouncementUploader(biothings.hub.dataload.uploader.BaseSourceUploader):
 
-    main_source="covid19_announcements"
-    name = "covid19_announcements"
+    main_source="announceTest"
+    name = "SDCounty"
     __metadata__ = {
         "src_meta": {
             "author":{
