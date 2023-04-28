@@ -9,7 +9,7 @@ import biothings.hub.dataload.dumper
 
 class AnnouncementDumper(biothings.hub.dataload.dumper.DummyDumper):
 
-    SRC_NAME = "covid19_announcements"
+    SRC_NAME = "announceTest"
     __metadata__ = {
         "src_meta": {
             "author":{
